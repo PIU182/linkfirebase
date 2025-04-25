@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./hdchonsize.css">
+</head>
+<body>
+    <div class="header">Miễn phí giao hàng đơn từ 300k</div>
+    <div class="menu">
+        <ul class="nav">
+            <li><a href="index.html" class="logo">Silent standard</h1></a>
+            <li><a href="index.html">TRANG CHỦ</a></li>
+            <li><a href="./index.html">ÁO </a>
+                <ul class="subnav">
+                    <li><a href="./aosomi.html">ÁO SƠ MI</a></li>
+                    <li><a href="./aothun.html">ÁO THUN</a></li>
+                    <li><a href="./aocroptop.html">ÁO CROPTOP</a></li>
+                </ul>
+            </li>
+            <li><a href="./quan.html">QUẦN</a></li>
+            <li><a href="./sale.html">GIẢM GIÁ</a></li>
+            <li><a href="./thongtinweb.html">THÔNG TIN</a></li>
+            <li><a href="./dangnhap.html" target="_blank">TÀI KHOẢN</a></li>
+            <li>
+                <div class="search">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm..." class="search-input">
+                    <button class="search-button">🔍</button>
+                </div>
+            </li>
+            <li>
+                <a onclick="showcard()"><button class="gh">🛒</button></a>
+            </li>
+        </ul>
+        <div id="showcard">
+            <table>
+                <thead>
+                    <tr>
+                       <th>Sản phẩm</th>
+                       <th>Hình</th>
+                       <th>Tên</th>
+                       <th>Đơn giá</th>
+                       <th>Số lượng</th>
+                       <th>Thành tiền</th>
+                       <th></th>
+                    </tr>
+                </thead>
+                <tbody id="mycard">
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="5">Tổng đơn hàng</th>
+                        <th id="tongtien" colspan="2">0đ</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <button class="tt">Thanh Toán</button>
+        </div>
+    </div>
+    <div class="container">
+        <h4>Hướng Dẫn Chọn Size</h4>
+        <div>
+            <h5>BẢNG SIZE ÁO</h5>
+            <table>
+                <thead>
+                    <tr>
+                        <th>SIZE</th>
+                        <th>CHIỀU CAO (CM)</th>
+                        <th>CÂN NẶNG (KG)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>S</td>
+                        <td>160 - 166</td>
+                        <td>56 - 62</td>
+                    </tr>
+                    <tr>
+                        <td>M</td>
+                        <td>167 - 172</td>
+                        <td>63 - 68</td>
+                    </tr>
+                    <tr>
+                        <td>L</td>
+                        <td>173 - 178</td>
+                        <td>69 - 74</td>
+                    </tr>
+                    <tr>
+                        <td>XL</td>
+                        <td>179 - 184</td>
+                        <td>75 - 80</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5>BẢNG SIZE CHI TIẾT</h5>
+            <table>
+                <thead>
+                    <tr>
+                        <th>SIZE</th>
+                        <th>S</th>
+                        <th>M</th>
+                        <th>L</th>
+                        <th>XL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CỔ</td>
+                        <td>36</td>
+                        <td>38</td>
+                        <td>40</td>
+                        <td>42</td>
+                    </tr>
+                    <tr>
+                        <td>VAI</td>
+                        <td>44</td>
+                        <td>45</td>
+                        <td>46</td>
+                        <td>47</td>
+                    </tr>
+                    <tr>
+                        <td>NGỰC</td>
+                        <td>82 - 92</td>
+                        <td>93 - 97</td>
+                        <td>98 - 101</td>
+                        <td>102 - 103</td>
+                    </tr>
+                    <tr>
+                        <td>EO</td>
+                        <td>88</td>
+                        <td>92</td>
+                        <td>96</td>
+                        <td>100</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="image-section">
+            <img src="https://down-vn.img.susercontent.com/file/vn-11134201-23030-dh91rbu4nwovac.webp" alt="" />
+            <!-- <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lez6j5020yh69a" alt=""  /> -->
+            <img src="./image.png" alt="" class="img2">
+        </div>
+        <p class="note">* Bảng trên chỉ mang tính chất tham khảo, số đo thực tế có thể lệch 1-2 cm, chọn mặc form vừa vận động thoải mái.</p>
+        <p class="note">* Bảng size chỉ mang tính chất tham khảo phù hợp với phần đông số đo của khách hàng. Do màn hình và điều kiện sáng khác nhau, màu sắc có thể chênh lệch phần nhỏ so với thực tế.</p>
+    </div>
+    <div class="end">
+        <div class="call">
+            <span>GỌI MUA HÀNG ( 8:30 - 22:20 )</span>
+            <h2>LIÊN HỆ:034646 0194</h2>
+            <p>Tất cả các ngày trong tuần (Trừ tết Âm Lịch)</p>
+            <p>GÓP Ý, KHIẾU NẠI ( 8:00 - 17:00 )</p>
+        </div>
+        <div>
+            <h2>HỆ THỐNG CỬA HÀNG</h2>
+            <p>Hà Nội:</p>
+            <a href="https://maps.app.goo.gl/1APaMhwQxm2V28ho9">Phố Tràng Tiền, Quận Hoàn Kiếm, Hà Nội</a>
+            <a href="https://maps.app.goo.gl/HnNAz1wAWYJBomKs7">Phố Nguyễn Quý Đức, Quận Thanh Xuân, Hà Nội</a>
+            <a href="https://maps.app.goo.gl/4owAzMSpnAxAhgn56">Phố Nguyễn Ngọc Vũ, Quận Cầu Giấy,Hà Nội</a>
+        </div>
+        <div>
+            <h2>HỖ TRỢ</h2>
+            <a href="./hdchonsize.html">Hướng dẫn chọn size </a>
+            <a href="">Hỗ trợ khách hàng</a>
+        </div>
+        <div class="flow">
+            <span>THEO DÕI CHÚNG TÔI</span>
+            <div class="box">
+                <a href="https://www.facebook.com/profile.php?id=100087584310757" target="_blank"><input type="button" class="facebook" value="Facebook"></a>
+                <a href="https://www.instagram.com/silence_standard/" target="_blank"><input type="button" class="ig" value="Instagram"></a>
+                <a href="https://shopee.vn/silence_standard?categoryId=100011&entryPoint=ShopByPDP&itemId=19789469452&upstream=dd" target="_blank"><input type="button" class="spe" value="Shopee"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div>
+            <p>Copyright © 2022 Silent standard - Thời trang - Designed by Laiminh</p>
+            <p>Địa chỉ: Phố Nguyễn Quý Đức, Quận Thanh Xuân, Hà Nội</p>
+            <p>Chịu Trách Nhiệm Quản Lý Nội Dung: Nhóm 11</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
